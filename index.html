@@ -1,14 +1,14 @@
-<!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
- <!--Still have to add the fonts, linked below  -->
-<!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> -->
-  <head>
-    <link href="<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-    <!-- How does one link the stylesheet..? -->
-<!-- <link rel="stylesheet"> -->
+<head>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
   <title>Yosemite Park Guide</title>
+
 </head>
 <body>
 
@@ -16,14 +16,14 @@
   <!-- The navigation, on both bottom and top, are required to have a specific color. How do I specifically choose each one in order to do this? top:bottom a,b,c? -->
    <header>
      <nav>
-       <a href="#">Plan your Visit</a>
-       <a href="#">Learn about the Park</a>
-       <a href="#">Get Involved</a>
+       <a href="#" class="aOne">Plan your Visit</a>
+       <a href="#" class="aTwo">Learn about the Park</a>
+       <a href="#" class="aThree">Get Involved</a>
      </nav>
 
      <section id="photoNtext">
         <div class="topPhoto">
-     <img src="header_img.jpg">
+     <img src="assets/header_img.jpg">
    </div>
      <div class="topText">
          <h1>Yosemite Park Guide</h1>
@@ -34,8 +34,8 @@
   
     </header>
  
-    <section class="history">
-      <div>
+    <section>
+      <div class="history">
         <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
     
         <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
@@ -57,16 +57,18 @@
   
 <div class="bottomPhoto">
   <footer>
-      <img src="footer_img.png">
+      <img src="assets/footer_img.jpg">
+
+    <nav id="bottomNav">
+      <a href="#" class="aOne">Plan your Visit</a>
+      <a href="#" class="aTwo">Learn about the Park</a>
+      <a href="#" class="aThree">Get Involved</a>
+    </nav> 
     </footer>
   </div>
     
     
-    <nav id="bottomNav">
-      <a href="#">Plan your Visit</a>
-      <a href="#">Learn about the Park</a> 
-      <a href="#">Get Involved</a>  
-    </nav> 
+
   </div>
   
     
